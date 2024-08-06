@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/jason/repos/MatrixVisual/MatrixVisual.csproj": {}
+    "C:\\Users\\Jason\\source\\repos\\MatrixVisual\\MatrixVisual.csproj": {}
   },
   "projects": {
-    "/home/jason/repos/MatrixVisual/MatrixVisual.csproj": {
+    "C:\\Users\\Jason\\source\\repos\\MatrixVisual\\MatrixVisual.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jason/repos/MatrixVisual/MatrixVisual.csproj",
+        "projectUniqueName": "C:\\Users\\Jason\\source\\repos\\MatrixVisual\\MatrixVisual.csproj",
         "projectName": "MatrixVisual",
-        "projectPath": "/home/jason/repos/MatrixVisual/MatrixVisual.csproj",
-        "packagesPath": "/home/jason/.nuget/packages/",
-        "outputPath": "/home/jason/repos/MatrixVisual/obj/",
+        "projectPath": "C:\\Users\\Jason\\source\\repos\\MatrixVisual\\MatrixVisual.csproj",
+        "packagesPath": "C:\\Users\\Jason\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jason\\source\\repos\\MatrixVisual\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/jason/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jason\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,12 +39,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Toolkit.HighPerformance": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
             "MonoGame.Content.Builder.Task": {
               "target": "Package",
               "version": "[3.8.1.303, )"
@@ -63,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.4.24267.66/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
